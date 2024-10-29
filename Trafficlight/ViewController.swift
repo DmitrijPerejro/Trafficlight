@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         let index = currrentIndex % colors.count
         
         for (i, view) in colors.enumerated() {
-            view.alpha = (i == index) ? 1 : 0.3
+            view.alpha = i == index ? 1 : 0.3
         }
     }
     
